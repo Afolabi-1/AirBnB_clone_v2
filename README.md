@@ -1,6 +1,6 @@
 # HBNB
 
-This is the console /command interpreter for the Holberton Airbnb clone project. The console can be used to store objects in and retrieve objects from a JSON.
+This is the console /command interpreter for the Holberton Airbnb V2 clone project Yay. The console can be used to store objects in and retrieve objects from a JSON.
 
 ### Supported classes:
 * BaseModel
@@ -12,10 +12,10 @@ This is the console /command interpreter for the Holberton Airbnb clone project.
 * Review
 
 ### Commands:
-* create - create an object
-* show - show an object (based on id)
-* destroy - destroy an object
-* all - show all objects, of one type or all types
+* create - This is to create an object
+* show - This is to show an object (based on id)
+* destroy - this destroys an object
+* all - this how all objects, of one type or all types
 * quit/EOF - quit the console
 * help - see descriptions of commands
 
@@ -23,39 +23,25 @@ To start, navigate to the project folder and enter `./console.py` in the shell.
 
 #### Create
 `create <class name>`
-Ex:
-`create BaseModel`
 
 #### Show
 `show <class name> <object id>`
-Ex:
-`show User my_id`
+
+#### Help
+`help` or `help <command>`
 
 #### Destroy
 `destroy <class name> <object id>`
-Ex:
-`destroy Place my_place_id`
 
 #### All
 `all` or `all <class name>`
-Ex:
-`all` or `all State`
 
 #### Quit
 `quit` or `EOF`
 
-#### Help
-`help` or `help <command>`
-Ex:
-`help` or `help quit`
-
-Additionally, the console supports `<class name>.<command>(<parameters>)` syntax.
-Ex:
-`City.show(my_city_id)`
-
 ---
 
 ### Proudly Improved By:
-- **[YosriGFX](https://Github.com/YosriGFX)**
-- **[Naouali](https://github.com/Naouali)**
+-** afolabi adetunji
+-** subomi adetunji
 
