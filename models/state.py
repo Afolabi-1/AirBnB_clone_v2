@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""This is the state class"""
+"""This is the code for state class """
 from models.base_model import BaseModel, Base
 import models
 from models.city import City
@@ -9,7 +9,7 @@ from os import getenv
 
 
 class State(BaseModel, Base):
-    """This is the class for State
+    """This is the class for  the State
     Attributes:
         name: input name
     """
