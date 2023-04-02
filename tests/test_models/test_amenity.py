@@ -6,9 +6,9 @@ import datetime
 
 
 class TestAmenity(unittest.TestCase):
-    """ Unit Tests for Amenity Class """
+    """ Unittest for the amenity Class """
     def setUp(self):
-        """ Setup instances of the Amenity Class """
+        """ this funnction creates instances of amenity Class """
         self.a_inst = Amenity()
         self.b_inst = Amenity()
         self.b_inst.save()
@@ -22,12 +22,12 @@ class TestAmenity(unittest.TestCase):
         self.assertTrue(self.a_inst.created_at != self.b_inst.created_at)
 
     def test_types(self):
-        """ Testing for types """
+        """ Testing for types of classes """
         self.assertTrue(type(self.a_inst.created_at) is datetime.datetime)
         self.assertTrue(type(self.a_inst.name) is str)
 
     def test_save(self):
-        """ Testing updating  """
+        """ updating the test results """
         b_date = self.b_inst.updated_at
         self.b_inst.save()
         b_date2 = self.b_inst.updated_at
