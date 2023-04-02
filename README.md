@@ -2,7 +2,7 @@
 
 This is the console /command interpreter for the Holberton Airbnb V2 clone project Yay. The console can be used to store objects in and retrieve objects from a JSON.
 
-### Supported classes:
+### Supported classes n this project are:
 * BaseModel
 * User
 * State
@@ -11,7 +11,7 @@ This is the console /command interpreter for the Holberton Airbnb V2 clone proje
 * Place
 * Review
 
-### Commands:
+### The commands created are:
 * create - This is to create an object
 * show - This is to show an object (based on id)
 * destroy - this destroys an object
